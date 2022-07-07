@@ -33,7 +33,7 @@ const Banner = () => {
           <Fade up delay={100}>
             <Heading
               as="h1"
-              content="Welcome next level  cryptocurrency token with faster transfer"
+              content="The next level Non-Fungible-Token norm for security and auditability"
             />
           </Fade>
           <Fade up delay={200}>

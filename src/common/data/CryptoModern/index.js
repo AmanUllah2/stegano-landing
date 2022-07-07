@@ -27,7 +27,7 @@ export const navbar = {
     {
       id: 4,
       label: 'Whitepaper',
-      path: '#map',
+      path: '#pdf',
       offset: '81',
     },
     {

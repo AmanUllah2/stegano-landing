@@ -36,13 +36,14 @@ const Footer = ({
             />
             <Text content="hello@watermark-nft.io" {...textStyle} />
             <div style={{ display: 'flex', alignItems: 'center' }}>
-              <input style={{ border: 0, padding: 12, height: 39, width: '75%', borderRadius: '12px 0px 0px 12px' }} placeholder='Email Us' />
-              <button onClick={()=>sendEmail()} style={{ backgroundImage: 'linear-gradient(to right,#4ba1d8,#4464bd 95%)', height: 39, border: 0, borderRadius: '0px 12px 12px 0px', cursor: 'pointer' }}>
-                <svg xmlns="http://www.w3.org/2000/svg" style={{ paddingRight: 8, paddingLeft: 5, padding: 5 }} className="icon icon-tabler icon-tabler-send" width="32" height="32" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#fff" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              {/* <input style={{ border: 0, padding: 12, height: 39, width: '75%', borderRadius: '12px 0px 0px 12px' }} placeholder='Email Us' /> */}
+              <button onClick={()=>sendEmail()} style={{ paddingLeft:20, paddingRight:20, backgroundImage: 'linear-gradient(to right,#4ba1d8,#4464bd 95%)', height: 39, border: 0, borderRadius: '8px', color: '#fff', cursor: 'pointer' }}>
+                {/* <svg xmlns="http://www.w3.org/2000/svg" style={{ paddingRight: 8, paddingLeft: 5, padding: 5 }} className="icon icon-tabler icon-tabler-send" width="32" height="32" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#fff" fill="none" strokeLinecap="round" strokeLinejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <line x1="10" y1="14" x2="21" y2="3" />
                   <path d="M21 3l-6.5 18a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5" />
-                </svg>
+                </svg> */}
+                Contact Us
               </button>
             </div>
             {/* <Text content="+33-695-418-225" {...textStyle} /> */}

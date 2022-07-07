@@ -30,14 +30,26 @@ const FaqSection = ({
   return (
     <FaqSectionWrapper id="about">
       <Container>
-        <div className='' style={{marginTop: 80 }}></div>
+        <div className='' style={{ marginTop: 80 }}></div>
         <Box {...sectionHeader} className="sectionHeader">
           <Text content="About Us" {...sectionSubTitle} />
         </Box>
         <div className='' style={{ display: 'flex', justifyContent: 'space-between', marginTop: 80 }}>
-          <img style={{ width: "25%", height: '25%', borderRadius: 32, cursor: 'pointer' }} src="/dp.jpeg" alt="Banner" />
-          <img style={{ width: "25%", height: '25%', borderRadius: 32, cursor: 'pointer' }} src="/dp.jpeg" alt="Banner" />
-          <img style={{ width: "25%", height: '25%', borderRadius: 32, cursor: 'pointer' }} src="/dp.jpeg" alt="Banner" />
+          <div style={{ width: "25%", height: '25%' }}>
+            <a href='https://linkedin.com/' target="_blank">
+              <img style={{ borderRadius: 32, cursor: 'pointer' }} src="/1.png" alt="Banner" />
+            </a>
+          </div>
+          <div style={{ width: "25%", height: '25%' }}>
+            <a href='https://linkedin.com/' target="_blank">
+              <img style={{ borderRadius: 32, cursor: 'pointer' }} src="/2.png" alt="Banner" />
+            </a>
+          </div>
+          <div style={{ width: "25%", height: '25%' }}>
+            <a href='https://linkedin.com/' target="_blank">
+              <img style={{ borderRadius: 32, cursor: 'pointer' }} src="/3.png" alt="Banner" />
+            </a>
+          </div>
         </div>
       </Container>
     </FaqSectionWrapper>
