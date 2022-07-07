@@ -58,7 +58,6 @@ const CryptoModern = () => {
             <MapSection />
             <PDFF/>
             <AboutUs />
-            <FaqSection />
             <Footer />
           </ContentWrapper>
         </CryptoWrapper>
